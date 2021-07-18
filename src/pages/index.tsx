@@ -5,7 +5,6 @@ import styles from '@/styles/Index.module.css'
 import ListItem from '@/components/ListItem/ListItem';
 
 export default function Home({ contents }: {contents: any[]}) {  
-  console.log(contents);
   return (
     <div className={styles.container}>
       <ul>
