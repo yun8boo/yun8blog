@@ -1,0 +1,14 @@
+.container {
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: calc(100% / 3);
+}
+
+.thumbnail {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 20px;
+}
