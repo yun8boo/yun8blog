@@ -3,9 +3,10 @@ import { client } from "@/libs/microcms/client"
 import { GetStaticPaths, GetStaticProps } from "next"
 
 const post = ({blog}: any) => {
+  const ogpImage = `https://res.cloudinary.com/yun8boo/image/upload/l_text:Sawarabi%20Gothic_45:${blog.title},co_rgb:333,w_500,c_fit/v1626787515/ogp_vfmvjh.png`
   return (
     <div>
-      <Seo pageTitle={blog.title} pageImg={blog.thumbnail.url} />
+      <Seo pageTitle={blog.title} pageImg={ogpImage} />
       <h1>{blog.title}</h1>
       <div
         dangerouslySetInnerHTML={{
