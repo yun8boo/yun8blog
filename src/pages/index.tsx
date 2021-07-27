@@ -6,11 +6,11 @@ import ListItem from '@/components/ListItem/ListItem';
 
 export default function Home({ contents }: {contents: any[]}) {  
   return (
-    <div className={styles.container}>
-      <ul>
+    <div>
+      <ul className={styles.list_wrapper}>
         {contents.map(content => {
           return (
-            <li key={content.id}>
+            <li key={content.id} className={styles.list_item}>
               <Link href={`/posts/${encodeURIComponent(content.id)}`}>
                 <a>
                   <ListItem content={content} />

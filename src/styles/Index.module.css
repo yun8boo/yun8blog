@@ -1,0 +1,8 @@
+.list_wrapper {
+  display: flex;
+}
+
+.list_item {
+  margin: 0 5px;
+  width: calc(100% / 3);
+}
