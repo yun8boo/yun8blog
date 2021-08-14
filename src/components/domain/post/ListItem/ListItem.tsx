@@ -1,4 +1,4 @@
-import styles from '@/components/ListItem/ListItem.module.css'
+import styles from '@/components/domain/post/ListItem/ListItem.module.css'
 
 interface Props {
   content: any

@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next'
 import Link from 'next/link'
 import { client } from '@/libs/microcms/client'
 import styles from '@/styles/Index.module.css'
-import ListItem from '@/components/ListItem/ListItem';
+import ListItem from '@/components/domain/post/ListItem/ListItem';
 
 export default function Home({ contents }: {contents: any[]}) {  
   return (
