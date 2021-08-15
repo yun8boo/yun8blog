@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>
-        <link rel="manifest" href="/public/manifest.webmanifest" />
+        <link rel="manifest" href="/manifest.webmanifest" />
       </Head>
       <Component {...pageProps} />
     </Layout>
