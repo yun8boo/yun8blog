@@ -1,15 +1,10 @@
-import Link from "next/link"
-import styles from '@/components/Layout/Layout.module.css'
+import Header from "./Header"
 
 const Layout = ({children}: any) => {
   return (
     <div>
-      <header className={styles.header}>
-        <Link href="/">
-          <a>🤖 yun8blog</a>
-        </Link>
-        </header>
-      <main className={styles.main}>
+      <Header />
+      <main className='mx-auto p-5 max-w-screen-lg'>
         {children}
       </main>
     </div>
