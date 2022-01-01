@@ -6,7 +6,7 @@ import { client } from "@/libs/microcms/client"
 
 import 'highlight.js/styles/night-owl.css';
 
-const post = ({blog, ogpImage, highlightedBody}: any) => {
+const post = ({ blog, ogpImage, highlightedBody }: any) => {
   return (
     <div>
       <Seo pageTitle={blog.title} pageImg={ogpImage} />
